@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMPRINT</title>
+    <link rel="icon" href="./2024-01-14_202046-removebg-preview.png" type="image/png">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav nav">
+          <div class="nav__logo">
+            <a href="#!" class="logo">
+              <img style="width: 100px" src="./2024-01-14_202046-removebg-preview.png" alt="logo" />
+            </a>
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-list__item"></li>
+            <li class="nav-list__item">
+              <a href="#benefist" class="nav-list__link">О нас</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#uslugi" class="nav-list__link">Услуги</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#contacts" class="nav-list__link">Контакты</a>
+            </li>
+          </ul>
+
+          <button id="open-mobile-nav-btn" class="nav__btn">
+            <img src="./img/icons/mobile-nav.svg" alt="Open navigation" />
+          </button>
+        </nav>
+
+        <div class="header__content">
+          <h1
+            class="header__title"
+            style="
+              text-transform: uppercase;
+              color: white;
+              text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Задайте здесь нужные значения тени */
+            "
+          >
+            шелкография imprint
+          </h1>
+          <p>«Сделали и не парились» это не про нас!</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="benefits">
+      <div class="container" id="benefist">
+        <div class="benefits__grid">
+          <div class="benefits__title">
+            <h2 class="title-2">О нас</h2>
+          </div>
+
+          <div class="benefit">
+            <h3 class="benefit__title">Качество превыше всего</h3>
+            <p class="benefit__text">
+              От дизайна до печати – наше качество. Гарантируем идеальный крой, удовлетворенных
+              заказчиков, и контроль текстильного качества. Работаем для результата, бережем статус.
+            </p>
+          </div>
+          <div class="benefit">
+            <h3 class="benefit__title">Стоимость шелкографии</h3>
+            <p class="benefit__text">
+              Стоимость зависит от нескольких ключевых параметров, включая количество кроев,
+              сложность дизайна, тип используемой ткани и количество цветов в принте.
+            </p>
+          </div>
+          <div class="benefit">
+            <h3 class="benefit__title">Сроки выдачи заказа</h3>
+            <p class="benefit__text">
+              Сроки выполнения заказа зависят напрямую от количества этапов кроя и уровня сложности
+              дизайна.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="container" id="uslugi">
+        <div class="products__title">
+          <h2 class="title-2">Печатаем на таких изделиях как :</h2>
+        </div>
+
+        <div class="products__tabs none">
+          <div class="tab-controls">
+            <button data-tab="all" class="tab-controls__btn tab-controls__btn--active">All</button>
+            <button data-tab="chair" class="tab-controls__btn">Chair</button>
+            <button data-tab="bed" class="tab-controls__btn">Beds</button>
+            <button data-tab="sofa" class="tab-controls__btn">Sofa</button>
+            <button data-tab="lamp" class="tab-controls__btn">Lamp</button>
+          </div>
+        </div>
+
+        <div class="products__slider">
+          <!-- //slider -->
+          <div class="slider">
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <article data-tab-value="chair" class="card swiper-slide">
+                  <a href="#product-page" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      src="./img/tkani.jpg"
+                      srcset="./img/tkani.jpg"
+                      alt="Title"
+                      class="card__img"
+                      height="10px"
+                    />
+                  </div>
+                  <div class="card__desc">
+                    <h3 class="card__title">Ткани</h3>
+                </article>
+                <article data-tab-value="chair" class="card swiper-slide">
+                  <a href="#product-page" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      src="./img/df.jpg"
+                      srcset="./img/df.jpg"
+                      alt="Title"
+                      class="card__img"
+                      height="10px"
+                    />
+                  </div>
+                  <div class="card__desc">
+                    <h3 class="card__title">Клавиатура ноутбука</h3>
+                </article>
+                <article data-tab-value="chair" class="card swiper-slide">
+                  <a href="#product-page" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      src="./img/wee.jpg"
+                      srcset="./img/wee.jpg"
+                      alt="Title"
+                      class="card__img"
+                      height="10px"
+                    />
+                  </div>
+                  <div class="card__desc">
+                    <h3 class="card__title">Пластик</h3>
+                </article>
+                <article data-tab-value="chair" class="card swiper-slide">
+                  <a href="#product-page" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      src="./img/we.jpg"
+                      srcset="./img/we.jpg"
+                      alt="Title"
+                      class="card__img"
+                      height="10px"
+                    />
+                  </div>
+                  <div class="card__desc">
+                    <h3 class="card__title">Коробки</h3>
+                </article>
+                <article data-tab-value="chair" class="card swiper-slide">
+                  <a href="#product-page" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      src="./img/zip.jpg"
+                      srcset="./img/zip.jpg"
+                      alt="Title"
+                      class="card__img"
+                      height="10px"
+                    />
+                  </div>
+                  <div class="card__desc">
+                    <h3 class="card__title">Зип-пакеты</h3>
+                </article>
+                <article data-tab-value="chair" class="card swiper-slide">
+                  <a href="#product-page" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      src="./img/фы.jpg"
+                      srcset="./img/фы.jpg"
+                      alt="Title"
+                      class="card__img"
+                      height="10px"
+                    />
+                  </div>
+                  <div class="card__desc">
+                    <h3 class="card__title">Крафт-пакеты</h3>
+                </article>
+                <article data-tab-value="chair" class="card swiper-slide">
+                  <a href="#product-page" class="card__link"></a>
+                  <div class="card__photo">
+                    <img
+                      src="./img/paket.jpg"
+                      srcset="./img/paket.jpg"
+                      alt="Title"
+                      class="card__img"
+                      height="10px"
+                    />
+                  </div>
+                  <div class="card__desc">
+                    <h3 class="card__title">Полиэтиленовые пакеты
+                    </h3>
+                </article>
+         
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <button id="sliderPrev" class="slider__btn slider__btn--prev">
+              <img src="./img/icons/slider/slider-left.svg" alt="Previous" />
+            </button>
+
+            <button id="sliderNext" class="slider__btn slider__btn--next">
+              <img src="./img/icons/slider/slider-right.svg" alt="Next" />
+            </button>
+          </div>
+          <!-- //slider -->
+        </div>
+        <!-- //products__slider -->
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container container--small" id="contacts">
+        <!-- footer__grid -->
+        <div class="footer__grid">
+          <!-- Desc -->
+          <div class="footer__desc">
+            <div class="footer__logo">
+              <a href="#!" class="logo">шелкография imprint</a>
+            </div>
+
+            <p>
+              Воплотите свои идеи в уникальные принты с нашим цехом по шелкографии. Качество, стиль, ваши истории!
+            </p>
+          </div>
+          <!-- // Desc -->
+
+          <nav class="footer__nav footer__nav--services">
+            <h3 class="footer__nav-title">Контакты</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item"><a href="#!"> <img src="./img/location.png" alt=""> Адрес:</a></li>
+
+              <li class="footer__list-item"><a href="#!"> <img src="./img/phone-call (1).png" alt=""> Номер телефона :</a></li>
+              <li class="footer__list-item"><a href="#!"> <img src="./img/whatsapp.png" alt=""> WhatsApp</a></li>
+              <li class="footer__list-item"><a href="#!"><img src="./img/instagram.png" alt="">Instagram</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer__nav">
+            <h3 class="footer__nav-title" style="color:transparent">Furniture</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item"><a href="tel:0555 971 748">г.Бишкек , район Гоина</a></li>
+              <li class="footer__list-item"><a href="tel:0555 971 748">0555 971 748</a></li>
+              <li class="footer__list-item"><a target="_blank" href="https://wa.me/0555971748">0555 971 748
+              </a></li>
+              <li class="footer__list-item"><a target="_blank" href="https://www.instagram.com/imprint.shelkografiya/">@imprint.shelkografiya
+              </a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- // footer__grid -->
+
+        <!-- footer__row -->
+        <div class="footer__row">
+          <div class="footer__copyright">Khamza Avazbekov © 2024</div>
+
+          <div class="footer__links">
+            <a target="_blank" href="https://www.linkedin.com/in/avazbekhamza/">Linkedin</a>
+            <a href="mailto:khamzadevv@gmail.com">Gmail</a>
+          </div>
+        </div>
+        <!-- // footer__row -->
+      </div>
+    </footer>
+
+    <!-- Mobile nav -->
+    <div id="mobile-nav" class="mobile-nav-wrapper">
+      <div class="mobile-nav-header">
+      
+
+        <button id="close-mobile-nav-btn" class="mobile-nav-btn-close">
+          <img src="./img/icons/close.svg" alt="Close navigation" />
+        </button>
+      </div>
+
+      <ul class="mobile-nav">
+        <li class="mobile-nav__item">
+          <ul class="mobile-sub-nav">
+            
+            <li class="mobile-sub-nav__item"><a href="#benefist" class="mobile-sub-nav__link">О нас</a></li>
+            <li class="mobile-sub-nav__item">
+              <a href="#uslugi" class="mobile-sub-nav__link">Услуги</a>
+            </li>
+            <li class="mobile-sub-nav__item">
+              <a href="#contacts" class="mobile-sub-nav__link">Контакты</a>
+            </li>
+           
+          </ul>
+        </li>
+       
+      </ul>
+    </div>
+    <!-- // Mobile nav -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
