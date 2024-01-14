@@ -550,7 +550,7 @@ body {
 }
 
 .products {
-  padding: 50px 0;
+  padding: 50px 0 0 0;
   background-color: #f7f7f7;
 }
 
@@ -564,9 +564,6 @@ body {
   text-align: center;
 }
 
-.products__slider {
-  margin-bottom: clamp(30px, 0.982rem + 4.46vw, 60px);
-}
 @media (max-width: 1400px) {
   .products__slider {
     padding: 0 40px;
@@ -677,6 +674,7 @@ body {
 .card__title {
   color: var(--text-card-dark-blue);
   font-size: 21px;
+  text-align: center;
   font-weight: 600;
 }
 
