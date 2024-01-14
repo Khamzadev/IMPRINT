@@ -167,6 +167,7 @@ body {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .header {
     background-image: url('./../img/ыыыыыыыыыыы.jpg');
+    aspect-ratio: 700/84;
   }
 }
 .header a {
@@ -175,9 +176,13 @@ body {
 @media (max-width: 629px) {
   .header {
     padding-top: 20px;
-    padding-bottom: 240px;
+    padding-bottom: 140px;
     background-position: center;
     aspect-ratio: unset;
+  }
+  .header__title {
+    padding-top: 100px;
+    font-size: 80px;
   }
 }
 
@@ -659,7 +664,6 @@ body {
   gap: 6px;
   height: 202px;
   padding: 14px 22px 28px;
-  background-color: #fff;
   border-radius: 0 0 20px 20px;
 }
 
